@@ -1,0 +1,286 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f2073c38b1c14d053bc746216197c666",
+    "packages": [
+        {
+            "name": "eftec/bladeone",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EFTEC/BladeOne.git",
+                "reference": "9e9b4d2d80110eabde393e887b7b5a36324a58d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EFTEC/BladeOne/zipball/9e9b4d2d80110eabde393e887b7b5a36324a58d5",
+                "reference": "9e9b4d2d80110eabde393e887b7b5a36324a58d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "eftec\\": "vendor/eftec/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jorge Patricio Castro Castillo",
+                    "email": "jcastro@eftec.cl"
+                }
+            ],
+            "description": "The standalone version Blade Template Engine from Laravel in a single php file",
+            "homepage": "https://github.com/EFTEC/BladeOne",
+            "keywords": [
+                "blade",
+                "template",
+                "view"
+            ],
+            "time": "2017-04-14 14:03:48"
+        },
+        {
+            "name": "mikecao/flight",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikecao/flight.git",
+                "reference": "0386339331d3115dec51c6323851ec128159a096"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikecao/flight/zipball/0386339331d3115dec51c6323851ec128159a096",
+                "reference": "0386339331d3115dec51c6323851ec128159a096",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.6"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "flight/autoload.php",
+                    "flight/Flight.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Cao",
+                    "email": "mike@mikecao.com",
+                    "homepage": "http://www.mikecao.com/",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Flight is a fast, simple, extensible framework for PHP. Flight enables you to quickly and easily build RESTful web applications.",
+            "homepage": "http://flightphp.com",
+            "time": "2017-01-20 06:39:44"
+        },
+        {
+            "name": "yeriomin/redbean-single-file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yeriomin/redbean-single-file.git",
+                "reference": "3faf670edcce9ecbec941485604651d156e7c413"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yeriomin/redbean-single-file/zipball/3faf670edcce9ecbec941485604651d156e7c413",
+                "reference": "3faf670edcce9ecbec941485604651d156e7c413",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "rb.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabor de Mooij",
+                    "email": "gabordemooij@gmail.com",
+                    "homepage": "http://www.redbeanphp.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "RedBeanPHP is an easy-to-use, on-the-fly ORM for PHP.",
+            "homepage": "https://github.com/yeriomin/redbean-single-file",
+            "keywords": [
+                "CUBRID",
+                "InnoDB",
+                "mariadb",
+                "mysql",
+                "postgresql",
+                "sqlite3"
+            ],
+            "time": "2016-11-05 18:13:18"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-11-14 01:06:16"
+        },
+        {
+            "name": "symfony/var-dumper",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/var-dumper.git",
+                "reference": "b61089d7bf16640a4b24eb9b11b619438a38f0b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/b61089d7bf16640a4b24eb9b11b619438a38f0b4",
+                "reference": "b61089d7bf16640a4b24eb9b11b619438a38f0b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "conflict": {
+                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+            },
+            "require-dev": {
+                "twig/twig": "~1.20|~2.0"
+            },
+            "suggest": {
+                "ext-symfony_debug": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "Resources/functions/dump.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Component\\VarDumper\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony mechanism for exploring and dumping PHP variables",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "debug",
+                "dump"
+            ],
+            "time": "2017-04-20 17:12:40"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mikecao/flight": 20,
+        "yeriomin/redbean-single-file": 20,
+        "eftec/bladeone": 20,
+        "symfony/var-dumper": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

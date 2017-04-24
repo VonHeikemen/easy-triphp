@@ -1,0 +1,7 @@
+/templates/compiled/*
+/vendor
+/node_modules
+.env
+/.phpintel
+
+

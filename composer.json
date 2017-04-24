@@ -1,0 +1,21 @@
+{
+    "name": "vonheikemen/easy-triphp",
+    "description": "a PHP app setup using FlightPHP, RedBeanPHP, Blade and more...",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VonHeikemen",
+            "email": "vonheikemen.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "mikecao/flight": "dev-master",
+        "yeriomin/redbean-single-file": "dev-master",
+        "eftec/bladeone": "^1.8@dev"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3@dev"
+    }
+}

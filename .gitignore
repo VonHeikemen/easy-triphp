@@ -1,4 +1,4 @@
-/src/templates/compiled/*
+/src/app/templates/compiled/*
 /vendor
 /node_modules
 .env
